@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+}
+
+p{
+    padding: 0;
+    /* margin: 0; */
+}
+
+hr {
+    background-color: white;
+    width: 20%;
+    height: 1px;
+}
+
+p {
+    color: #dedede;
+    font-size: 0.9rem;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header */
+
+.black-bg{
+    background-color: #000;
+}
+
+.navbar {
+    background-color: #000 !important;
+}
+
+/* main */
+
+main{
+    background-image: url(./img/main.png);
+    width: 100%;
+    min-height: 91vh;
+    color: white;
+}
+
+main * {
+    padding: 15px 2px;
+}
+main hr {
+    padding: 0;
+}
+
+.main-section {
+    padding-top: 60px;
+    position: relative;
+}
+
+.main-logo {
+    width: 130px;
+}
+
+.btn {
+    background-color: transparent ;
+    border-radius: 0;
+    border: 1px solid white;
+    color: white;
+}
+
+.main-form {
+    height: 90%;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main-form * {
+    padding: 0;
+}
+.main-form-p {
+    padding: 0;
+    height: 15%;
+    width: 100%;
+    background-color: #f5f5f5;
+    color: #353535;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.main-form-p p {
+    color: #353535;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+}
+.main-form-p span {
+    color: #ff9b51;
+}
+
+
+.main-form-form {
+    width: 100%;
+    height: 70%;
+    background-color: yellow;
+}
+.main-form-form form {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+}
+.main-form-form form input {
+    background-color: #fff;
+    width: 70%;
+    height: 20%;
+    border: 0;
+    border-bottom: 0.5px solid #dbdbdb;
+    padding: ;
+}
+
+.main-form-button {
+    height: 15%;
+    width: 100%;
+    background-color: yellowgreen;
+}
+.main-form-button button {
+    height: 100%;
+    width: 100%;
+    background-color: #ff9b51;
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
+
+/* social */
+#social {
+    background-color: #fff;
+    color: #464646;
+    height: 11vh;
+    width: 100%;
+}
+#social .container {
+    padding: 15px 0;
+}
+#social p {
+    color: #CCCCCC;
+    line-height: 1.2;
+    margin: 0;
+}
+#social h5 {
+    margin: 0;
+}
+.social-icons {
+    color: #ccc;
+    font-size: 2rem;
+    justify-content: space-between;
+}
+
+
+
+
